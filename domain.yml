@@ -94,7 +94,6 @@ intents:
 
 
 actions:
-  - action_show_time
   - utter_smalltalk_agent_acquaintance
   - utter_smalltalk_agent_age
   - utter_smalltalk_agent_annoying
@@ -179,8 +178,7 @@ actions:
 
 
 
-
-
+responses:
   utter_smalltalk_agent_acquaintance:
     - text: "I'm a conversational app."
     - text: "I'm a virtual being, not a real person."
