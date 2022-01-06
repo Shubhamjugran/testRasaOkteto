@@ -1,19 +1,6 @@
-version: "3.0"
+version: "2.0"
 
 stories:
-
-- story: email story
-  steps:
-  - intent: sendmail
-  - action: utter_askname
-  - intent: user_name
-  - slot_was_set:
-    - name: "shubham"
-  - action: utter_askemail
-  - slot_was_set:
-    - email: 'shubhamcableop@gmail.com'
-  - intent: email_id
-  - action: action_email
 
 - story: path_smalltalk_agent_acquaintance
   steps:
@@ -417,30 +404,7 @@ stories:
   steps:
     - intent: smalltalk_user_will_be_back
     - action: utter_smalltalk_user_will_be_back
-
-
-- story: give time path
-  steps:
-    - intent: greet
-    - action: utter_greet
-    - intent: give_time
-    - action: action_show_time
-
-- story: time path
-  steps:
-    - intent: give_time
-    - action: action_show_time
-
-- story: time
-  steps:
-    - intent: greet
-    - action: utter_greet
-    - intent: give_time
-    - action: action_show_time
-    - action: utter_did_that_help
  
-
-
 - story: happy path
   steps:
   - intent: greet
