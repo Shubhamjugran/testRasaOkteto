@@ -1,18 +1,6 @@
-version: "3.0"
+version: "2.0"
 
 nlu:
-
-- intent: email_id
-  examples: |
-    - [abc@gmail.com](email)
-    - [abc@yourdomain](email)
-    - @gmail.com
-    - [xyz@gmail.com](email)
-
-- intent: user_name
-  examples: |
-    - [YOURNAME](name)
-    - [RANDOM_PERSON_NAME](name)
 
 - intent: smalltalk_agent_acquaintance
   examples: |
