@@ -22,16 +22,6 @@ Operating System : Windows 10 (Version : 21H1)
 - Botium Speech Processing [link](https://github.com/Shubhamjugran/botium-speech-processing)  
 - Webpage for chatbot interaction (UI).[link](https://awaaz.azurewebsites.net/home/demo)
 
-## Resource Consumption (Idle) :hourglass_flowing_sand:  
-
-**- (Speech To Text) kaldi STT engine (2 workers for 2 sessions)** :point_down: ![This is an image](/screenshots/kaldi.png)
-**- (Text To Speech) pico TTS engine**  :point_down: ![This is an image](/screenshots/tts.png)
-**- (Frontend) GUI for test out API**   :point_down: ![This is an image](/screenshots/frntend.png)
-**- (Nginx) Web Server**                :point_down: ![This is an image](/screenshots/nginx.png)
-**- (Rasa Server) General Bot**         :point_down: ![This is an image](/screenshots/rasa.png)
-**- (Rasa-actions-server)**             :point_down: ![This is an image](/screenshots/actions.png)
-**- (Duckling-server)**                 :point_down: ![This is an image](/screenshots/duckling.png)
-
 ### Okteto Endpoints :link:
 
 - Rasa Server [link](https://rasa-server-rasa281-shubhamjugran.cloud.okteto.net)
