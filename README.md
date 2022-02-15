@@ -1,1 +1,1 @@
-# rasa_gen
+# General Bot
